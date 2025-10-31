@@ -19,8 +19,10 @@
     "pretty": true,
     "traceResolution": false,
     "typeRoots": ["./node_modules/@types", "./src/typings"],
-    "baseUrl": "./",
-    "paths": {},
+    "baseUrl": ".",
+    "paths": {
+      "@controllers/*": ["http/controllers/*"],
+    },
     "strict": true,
     "strictBindCallApply": true,
     "strictFunctionTypes": true,

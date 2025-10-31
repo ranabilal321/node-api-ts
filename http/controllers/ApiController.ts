@@ -1,3 +1,5 @@
+import "dotenv/config";
+
 export class ApiController {
     static async healthCheck(request, response) {
         try {
@@ -5,7 +7,7 @@ export class ApiController {
             return response.status(200).json({
                 status: "success",
                 message: "API is in health state",
-                query: {...query}
+                query: {...query, env: process.env}
             });
         } catch (error) {
             return response.status(200).json({
