@@ -1,6 +1,6 @@
 import "dotenv/config";
 
-import {bootstrap} from "@http/server";
+import {bootstrap} from "../http/server/index";
 
 const port = process.env["PORT"] || 8080;
 
