@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "build/bin/www.ts",
+      "src": "bin/www.ts",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "build/bin/www.ts"
+      "dest": "bin/www.ts"
     }
   ]
 }
