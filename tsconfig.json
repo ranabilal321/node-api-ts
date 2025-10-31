@@ -20,12 +20,7 @@
     "traceResolution": false,
     "typeRoots": ["./node_modules/@types", "./src/typings"],
     "baseUrl": "./",
-    "paths": {
-      "@controllers/*": ["http/controllers/*"],
-      "@routes/*": ["http/routes/*"],
-      "@server/*": ["http/server/*"],
-      "@http/*": ["http/*"],
-    },
+    "paths": {},
     "strict": true,
     "strictBindCallApply": true,
     "strictFunctionTypes": true,

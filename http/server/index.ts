@@ -1,3 +1,3 @@
 import "./routes";
 
-export {bootstrap} from "@server/bootstrap";
+export {bootstrap} from "./bootstrap";

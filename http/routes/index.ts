@@ -1,1 +1,1 @@
-export {ApiRouter} from "@routes/ApiRoutes";
+export {ApiRouter} from "../routes/ApiRoutes";
